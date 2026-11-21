@@ -14,6 +14,8 @@
 - **Documentación vigente contrastada:** [Ads Manager](https://create.roblox.com/docs/production/promotion/ads-manager), [Roblox Discovery](https://create.roblox.com/docs/discovery), [anuncio Roblox Kids and Select](https://devforum.roblox.com/t/highly-engaged-player-threshold-drops-to-250/4820164), [Creator Exchange](https://creatorexchange.io/) y [FAQ sobre estimaciones](https://creatorexchange.io/faq).
 - Etiquetas de evidencia: **[VIDEO]** opinión/ejemplo de Tizzy, **[ROBLOX]** documentación oficial, **[RBLX-LAB]** regla propia para tomar decisiones, **[POR VERIFICAR]** dato que requiere panel real o nueva consulta.
 
+> **Workflow validado en taller del 21/11/2026:** la secuencia de investigación y selección completa, con historial de candidatos y caso `Defend the Pizza!`, está en [GameIdeasForRoblox.md — Taller aplicado](GameIdeasForRoblox.md#taller-aplicado-del-21112026--proceso-reutilizable-de-idea-a-preproducción) y `IDEA-005`. En esta guía conservamos las reglas de keyword/título/thumbnail; no confundir nombre seleccionado o revisión que reportó el propietario con evidencia numérica archivada ni con aprobación de Ads.
+
 ## 1. Core fantasy: lo primero, antes de desarrollar
 
 **Core fantasy** = la promesa emocional fundamental: **quién soy** en el juego, **qué hago** que me emociona, **qué poder/peligro/recompensa siento**. Es la razón por la que alguien quiere probar el juego. **No es igual al core loop**: fantasy = deseo; loop = acciones repetibles que satisfacen el deseo.
