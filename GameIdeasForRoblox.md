@@ -121,6 +121,23 @@ site:roblox.com/games/ "[GENRE]" multiplayer
 
 Roblox's published discovery guidance emphasizes **play-through rate, early bounce rate, play days per user, playtime per user, and meaningful co-play**. It also advises **unique, accurate titles/thumbnails**, and warns that near-duplicate experiences can get reduced exposure. It does **not** establish a guaranteed viral formula. [Official Roblox Creator Hub](https://create.roblox.com/docs/discovery).
 
+### Taller aplicado del 21/11/2026 — proceso reutilizable de idea a preproducción
+
+**Regla de proceso adoptada para futuros conceptos:** seguir los pasos abajo en orden, sin confundir **validación de una palabra**, **demanda de un juego original**, **ausencia de competencia**, **diversión del loop** y **aprobación de inversión**. Son cinco verificaciones independientes. Una palabra conocida o popular no aprueba automáticamente el juego.
+
+1. **Abrir el vault ANTES de proponer.** `README.md → AGENTS.md → GameIdeasForRoblox.md`, y `CampaingsAndPreGameCreation.md` §1–2 si el trabajo incluye nombres/thumbnail. Revisar backlog y proyectos previos para no repetir ideas descartadas.
+2. **Extraer fantasías de éxitos externos, no inventar demanda.** Explorar Flash (Armor Games, Flashpoint, Kongregate), Coolmath, CrazyGames, Poki, Steam, Xbox, móviles, minijuegos sociales y videos. Registrar juego original, URL, cantidad y tipo de partidas/descargas, rating, cantidad de votos, fecha y creadores que siguen jugando. Preferir >3 M y rating ≥4.8/5, o ≥9/10 con ≥200k votos. Excepciones = WATCHLIST hasta justificarlas.
+3. **Construir 5–10 candidatos distintos.** Cada uno debe explicarse con una frase del tipo «Soy X, hago Y para conseguir/evitar Z», un **verbo** jugable, acción inicial y recompensa instantánea. Favorecer reacción física, humor, amigos, momentos clippeables y MVP de 2–3 días. Mantener las ideas no elegidas con su estado para futura reutilización.
+4. **Roblox market gap.** Consultar búsquedas por título exacto, verbo, fantasía, sinónimo y género. Para los competidores relevantes anotar URL, visitas, CCU, aprobación, thumbnail, tipo de juego, fecha y qué nos diferenciaría. **No** concluir que no existe competencia por no verla en una búsqueda; si hay un clon dominante sin diferencia real → NO-GO.
+5. **Nombre por palabras (Creator Exchange + Roblox).** Comprobar **primero el verbo/palabra principal** en [Creator Exchange](https://creatorexchange.io/) con varios juegos independientes que demuestren visitas; capturar al menos tres ejemplos con URL/fecha/visitas. Si no hay demanda consistente, probar *Defend / Protect / Save* u otros sinónimos antes de comprometer nombre. Verificar nivel lector de cada palabra relevante con fuente explícita: **objetivo 3.º–4.º grado**. Luego revisar el título completo y similares en Roblox. No confundir facilidad de entender con éxito de la palabra.
+6. **Diseñar el empaque ANTES de programar.** Elegir un título entendible y 2–3 conceptos de thumbnail. Composición base: **un protagonista + una acción física + una consecuencia visible**. Hacer prueba de lectura en tamaño móvil (3 segundos) y comprobar que la imagen promete gameplay real. Sin fantasy clara, título sólido ni miniatura legible → RESEARCH/NO-GO.
+7. **Definir loop gris y prueba social.** Prototipo sin cosméticos ni mapas grandes: acción → feedback instantáneo → recompensa → mejora → repetir. Primera acción ~5–10 s, primer premio objetivo <30 s, primer momento sorpresa <60 s. Debe tener diversión aunque se eliminen las recompensas cosméticas y ser jugable solo. Probar con 3–5 usuarios sin explicar las reglas. Si falla, corregir gameplay **antes** de pulir arte, monetización o anuncios.
+8. **Analytics-first y semáforo de decisión.** Cada feature nueva requiere hipótesis, KPI, denominador, evento comprobable por servidor, QA, versión y comparación. Para el MVP medir entrada→primer golpe/acción→primer premio→primera ronda→replay; D1 y sesión mediante dashboard nativo después de publicar. Decidir **GO (sólo con gates completos) / RESEARCH (faltan pruebas) / NO-GO (falla crucial)**. Aprobación del concepto no es aprobación para publicar ni gastar en Ads.
+
+**Registro mínimo por propuesta:** fecha; inspiración y URL; evidencia externa; competidores Roblox; keyword principal y tres ejemplos Creator Exchange; nivel lector y fuente; core fantasy; título; 2–3 thumbnails; loop 30 s; jugabilidad social/móvil; 3 momentos grabables; MVP 2–3 días; analytics; decisión y próximo test. Si el propietario hizo una validación pero no compartió cifras, poner `VALIDACIÓN REPORTADA POR EL USUARIO; DATOS NO ARCHIVADOS`, nunca un número inventado.
+
+**Aprendizaje de la sesión:** analizamos opciones de lucha/reflejos, expansión de multitudes, ejércitos de juguetes, lanzamiento/física, defensa de objetos, carreras de patos, exploración, destrucción y trampas sociales. Se eligió **Defend the Pizza!** porque la promesa «proteger una pizza gigante de monstruos» es fácil de transmitir, no porque haya evidencia de retención real. La persona usuaria informó que comprobó la keyword `Defend` en Creator Exchange y su legibilidad Grade 3–4; se aceptó el nombre sin repetirle la misma pregunta. Los enlaces, métricas y capturas de ese análisis no están archivados todavía. Las tres thumbnails son ideas, no tests A/B, y el prototipo aún no se jugó.
+
 ---
 
 ## 4. Game concept scorecard (100 points)
@@ -241,6 +258,17 @@ Start with the emotional promise, not the old game's art:
 | IDEA-004 | Throw a Friend Across the Map | Original family: Flight / Toss the Turtle; ratings <96 | Launch sims likely; exact gap unknown | Incomplete | WATCHLIST | Roblox competition audit |
 | IDEA-005 | **Defend the Pizza!** | Creator Exchange keyword research confirmed by user on 2026-11-21; source counts/URLs not yet recorded | Direct competition/genre gap not documented yet | Incomplete | **SELECTED — PREPRODUCTION** | Lock core fantasy, produce thumbnail candidates and test 30-second co-op combat loop |
 
+| IDEA-006 | Build a Toy Army | King's League Odyssey (inspiración a comprobar) | Mini War/estrategia adyacente; auditoría pendiente | Incomplete | RESEARCH | Definir diferencia real frente a ejércitos existentes |
+| IDEA-007 | Shoot & Bounce | Raze 2, ya citado arriba | PvP saturado; alcance alto para MVP | Incomplete | NO-GO TEMPORAL | Reabrir solo con ángulo único y MVP más simple |
+| IDEA-008 | Defend the Pizza alternatives: Protect / Save the Pizza | Misma fantasía que IDEA-005 | Keyword comparada verbalmente; sin series capturadas | Incomplete | ARCHIVED — naming | Título principal ya elegido |
+| IDEA-009 | Race Your Duck! | Duck Life (Coolmath; revisar cifras antes de puntuar) | Juegos de entrenamiento/carreras por revisar | Incomplete | WATCHLIST | Distinguir de clicking simulators |
+| IDEA-010 | Dig Deeper or Escape! | The Enchanted Cave 2 (referencia a verificar) | Riesgo de saturación de minería | Incomplete | WATCHLIST | Validar mecánica de arriesgar vs salir |
+| IDEA-011 | Pop the Balloon Monster! | Bloons TD (referencia de mecánica, no aprobación de copia) | Tower defense muy establecido | Incomplete | WATCHLIST | Transformar a combate físico original |
+| IDEA-012 | Save the Supermarket! | Decision 3 (referencia lejana) | Falta prueba de equivalencia y competencia | Incomplete | WATCHLIST | Explorar defensa física con carritos |
+| IDEA-013 | Destroy Their Castle! | Crush the Castle 2 (referencia de física) | Destrucción de estructuras por auditar | Incomplete | WATCHLIST | Prototipo de daño/rebotes |
+| IDEA-014 | One Room, 100 Rules! | This Is The Only Level (referencia de reglas cambiantes) | Obbies/escape por auditar | Incomplete | WATCHLIST | Probar una habitación con 3 reglas |
+| IDEA-015 | Build the Worst Obby! | Ultimate Chicken Horse (referencia social) | Trampas/obbies competitivos por auditar | Incomplete | RESEARCH | Probar colocar trampa → correr → falla → repetir |
+
 ### IDEA-005 — Defend the Pizza! (decisión del propietario 2026-11-21)
 
 - **Nombre elegido:** `Defend the Pizza!` (no es un lanzamiento ni una reserva exclusiva del título).
@@ -267,6 +295,7 @@ Whenever new information arrives:
 
 ### Changelog
 
+- **2026-11-21 — taller de búsqueda/selección:** Se documentó el proceso reusable de exploración → evidencia → Roblox gap → keyword/legibilidad → thumbnail → loop → analíticas; se registraron candidatos adicionales como RESEARCH/WATCHLIST sin validar sus cifras, y se preservó Defend the Pizza! como caso elegido, no juego terminado.
 - **2026-11-21 — decisión IDEA-005:** El propietario eligió **Defend the Pizza!** e informó haber completado validación de la palabra `Defend` en Creator Exchange y legibilidad 3.º–4.º grado; se registra como decisión de preproducción sin inventar resultados numéricos.
 - **2026-11-21 — v1.0:** Captured idea filters from user notes on Tizzy RBLX's game-idea video; added research sources, Roblox validation process, strict-vs-watchlist rules, weighted score, adaptation formulas, and initial Armor Games research leads. Verified the source-page existence of competing Roblox concepts for training, office tycoons, forge games, and obstacle races. No idea is approved for production yet.
 
