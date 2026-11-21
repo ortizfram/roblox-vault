@@ -150,3 +150,17 @@ Versión `DTP_V01`. Los eventos se proponen, no están implementados.
 - Cada interacción debe retrasar a los enemigos, nunca bloquearlos para siempre o sustituir el combate. Metas secundarias fáciles y opcionales; el equipo pierde únicamente cuando se acaba la pizza.
 - **Legibilidad objetivo 3.º–4.º grado:** una palabra nueva por mapa; íconos y animación antes que texto; a lo sumo 1 alerta prioritaria; probar con personas que no conozcan el juego. No afirmar que CLOSE/PUSH/PRESS tienen una clasificación de lectura verificada sin fuente.
 - Progresión 3/4/5 oleadas sugeridas, valores no balanceados ni aprobados. Street y Factory no se construyen antes del playtest de Shop. No se crearon mapas reales en Roblox Studio ni assets ni monetización.
+
+## 13. Blueprint V0.4 — carga, lobby, rewards, daily, combate, físicas, animaciones y música (2026-11-21)
+
+Se desarrolló un **Game Design de experiencia completa** para Defend the Pizza, conservando el alcance P0 pequeño y sin implementar aún scripts funcionales. **Fuente canónica del detalle en el repo del juego:**
+- [PLAYER_JOURNEY_UI_V04.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/PLAYER_JOURNEY_UI_V04.md): loading de datos real, PLAY rápido, lobby/pizzería, SHOP y LOADOUT (3 slots estéticos), menú DAILY, HUD táctil, final de partida y cutscenes saltables de 0.5–3 s.
+- [COMBAT_PHYSICS_ANIMATION_V04.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/COMBAT_PHYSICS_ANIMATION_V04.md): tap slap 1 HP, hold charged opcional 2 HP, impactos con knockback/ragdoll breve; zombies Runner 1 HP, Munchie 2, Thief 2, Big Eater 5, jefe opcional 12. Player 3 corazones y respawn gratis rápido, pizza 8 porciones. Números **hipótesis de balance**.
+- [REWARDS_DAILY_AUDIO_V04.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/REWARDS_DAILY_AUDIO_V04.md): Coins por oleada y mapa + Chef XP/level, cosméticos de Coins gratuitos, 3 daily quests UTC con metas solo-jugables, idempotencia de rewards/UpdateAsync, música original o autorizada y SFX legibles.
+- Documentos de resumen actualizados: GAME_DESIGN, ROADMAP, DECISIONS, ANALYTICS_SPEC, AGENTS, README, CHANGELOG.
+
+**GitHub juego rama main:** commit leído de vuelta y verificado `a3b3a25e9ad602e8dd99372e4b4dfd92a7fb975a` (2026-11-21).
+
+**Principios transferibles:** loading verdadero/no barras falsas; no bloquear primera partida con menús; misión visual consistente; 1–5 golpes claros por enemigo común/elite; físicas exageradas breves sin causar lag móvil; no recompensar last hits o farm AFK; dailies siempre factibles solo; tienda solo después de diversión/retención y autorización, nunca monetizar esperar largo por revive; audio original/licenciado, notificaciones cortas, accesibilidad y cutscenes breves/saltables.
+
+**Gate:** un zombie de 2 golpes, un chef con tap slap, una pizza con daño visible y una puerta del mapa Shop siguen siendo el primer prototipo. Nada de estos documentos implica que haya menús, música, assets, cutscenes, misiones o data stores en Roblox Studio todavía.
