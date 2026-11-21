@@ -130,3 +130,12 @@ Versión `DTP_V01`. Los eventos se proponen, no están implementados.
 - Propuesta centrada en personalización cosmética sin ventajas: Crazy Chef Pack (49 R$), Golden Spatula Pack (79 R$), Pizza Party Celebration consumible posterior a victoria (19 R$), Master Chef Supporter (149 R$). **Precios tentativos**, mostrar precios regionales reales en UI; no se crearon IDs ni productos.
 - **Cuándo:** G0 planificar; G1/G2 sin venta; G3 tienda demostrativa sin compra; G4a dos pases tras diversión y métricas verificadas y autorización explícita; G4b celebración tras ganar con ProcessReceipt idempotente; G5 Supporter si hay retención real y demanda. No vender reparaciones/daño/poder y no colocar prompts en derrota.
 - Cada fase tiene métricas de apertura, intención, compras confirmadas, datos de retención D1/D7 y QA de entrega. Monetización requiere autorización explícita y no reemplaza gameplay divertido.
+
+## 11. Propuesta V0.2: zombies atacan chefs y pizza, rescate y revive (2026-11-21)
+
+- **Nueva propuesta del propietario:** además de amenazar la pizza, algunos zombies podrían atacar a los jugadores para que existan caídas, rescates cooperativos y una posible opción de revive pago. No se confirmó estética definitiva de zombies frente a monstruos hambrientos.
+- **Documento de diseño y monetización en el repo del juego:** [COMBAT_AND_REVIVE_V02.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/COMBAT_AND_REVIVE_V02.md), commit confirmado `edff5c4d4057a56bdd3fec3b63c65bee54c1ee08`.
+- Recomendar zombie común con objetivo primario pizza, contraataque a chef que lo intercepte; ladrón sigue concentrado en porciones. Sin convertir toda IA en perseguidores de jugadores.
+- **Propuesta de downed:** 3 corazones iniciales, rescate gratis por compañero manteniendo botón ~2 s, reaparecer gratis en ≤10–12 s; nunca espectar toda la ronda. El equipo pierde si se acaba la pizza, no por quedarse caídos temporalmente.
+- **Revive pago solo hipótesis posterior:** un Developer Product consumible de revive inmediato, 19 Robux ilustrativos, sin presión automática ni bloqueo del camino gratuito; preservar crédito si el pago llega tarde, recibos idempotentes. Riesgo pay-to-win: no activar sin playtest de retención y autorización comercial expresa.
+- Todo es **documentación, NO implementado** en Roblox Studio. Probar diversión de golpes, daño y rescate antes de diseñar la compra.
