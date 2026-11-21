@@ -1,0 +1,11 @@
+---
+description: RBLX LAB knowledge vault; task-based minimal reading, source dates, safe AI workflows
+alwaysApply: true
+---
+
+This repository stores Roblox knowledge, not game source code.
+
+1. Start with [AGENTS.md](../../AGENTS.md). Do **not** read every document.
+2. Open only the task-matched sections of the canonical file. For broad/multi-domain questions, first use [AI_CONTEXT.md](../../AI_CONTEXT.md).
+3. Reuse citations and dated research; search web only for fresh or missing facts. Do not repeat video transcription or broad scans.
+4. Never invent metrics, confirm Studio access before claiming tests, validate economy on server, and do not spend ad credits or publish without explicit user authorization.
