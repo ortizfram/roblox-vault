@@ -271,6 +271,8 @@ Start with the emotional promise, not the old game's art:
 
 ### IDEA-005 — Defend the Pizza! (decisión del propietario 2026-11-21)
 
+**Documento de diseño activo:** [Projects/DefendThePizza/PREPRODUCTION_V01.md](Projects/DefendThePizza/PREPRODUCTION_V01.md) — V0.1, propuesta de combate físico, robo/recuperación, storyboard de thumbnail, first-minute, prototipo por gates y analítica; no es código ni asset final.
+
 - **Nombre elegido:** `Defend the Pizza!` (no es un lanzamiento ni una reserva exclusiva del título).
 - **Validación reportada por el usuario:** se investigó `Defend` en Creator Exchange y el nivel de comprensión del término es aproximadamente Grade 3–4. **No** se adjuntaron números, capturas, URL de los juegos analizados ni fuente de grade-level a esta actualización; por lo tanto se reconoce la decisión del usuario, pero la evidencia cuantitativa queda `UNKNOWN` hasta documentarse. No inventar un PASS de 3M/4.8/competencia.
 - **Core fantasy propuesta:** proteger una pizza gigante de monstruos hambrientos con amigos.
