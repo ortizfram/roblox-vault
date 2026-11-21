@@ -139,3 +139,14 @@ Versión `DTP_V01`. Los eventos se proponen, no están implementados.
 - **Propuesta de downed:** 3 corazones iniciales, rescate gratis por compañero manteniendo botón ~2 s, reaparecer gratis en ≤10–12 s; nunca espectar toda la ronda. El equipo pierde si se acaba la pizza, no por quedarse caídos temporalmente.
 - **Revive pago solo hipótesis posterior:** un Developer Product consumible de revive inmediato, 19 Robux ilustrativos, sin presión automática ni bloqueo del camino gratuito; preservar crédito si el pago llega tarde, recibos idempotentes. Riesgo pay-to-win: no activar sin playtest de retención y autorización comercial expresa.
 - Todo es **documentación, NO implementado** en Roblox Studio. Probar diversión de golpes, daño y rescate antes de diseñar la compra.
+
+## 12. Tres mapas + objetivos de bloqueo — concepto V0.3 (2026-11-21)
+
+- **Diseño detallado en el repo del juego:** [MAPS_AND_OBJECTIVES_V03.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/MAPS_AND_OBJECTIVES_V03.md), rama `main` sincronizada y verificada en commit `ae187cfcd87ececb646e378bce015a765ece5ba1`.
+- **Regla única:** SAVE THE PIZZA; zombies vienen por rutas y pueden atacar chefs que los interceptan; defender con espátula HIT + un solo botón ACT contextual (incluye HELP gratis a compañeros caídos).
+- **Mapa 1 Pizza Shop:** cerrar/reparar puertas o persianas (`CLOSE/FIX`). Primero prototipo Shop con una puerta, zombie, pizza y golpe.
+- **Mapa 2 Pizza Street:** empujar un auto/contenedor a una posición marcada para tapar callejones (`PUSH`), sin puzzles de físicas manuales.
+- **Mapa 3 Pizza Factory:** pulsar botones de ventiladores para alejar zombies por tiempo limitado (`PRESS`), sin mezclar máquinas y acertijos.
+- Cada interacción debe retrasar a los enemigos, nunca bloquearlos para siempre o sustituir el combate. Metas secundarias fáciles y opcionales; el equipo pierde únicamente cuando se acaba la pizza.
+- **Legibilidad objetivo 3.º–4.º grado:** una palabra nueva por mapa; íconos y animación antes que texto; a lo sumo 1 alerta prioritaria; probar con personas que no conozcan el juego. No afirmar que CLOSE/PUSH/PRESS tienen una clasificación de lectura verificada sin fuente.
+- Progresión 3/4/5 oleadas sugeridas, valores no balanceados ni aprobados. Street y Factory no se construyen antes del playtest de Shop. No se crearon mapas reales en Roblox Studio ni assets ni monetización.
