@@ -1,39 +1,45 @@
 # Roblox Vault — RBLX LAB
 
-**Repositorio de conocimiento para ideas, core fantasy, desarrollo medible y campañas.** No es un repositorio de código de ningún juego. **Actualizado:** 2026-11-21.
+**Repositorio de conocimiento, no código de juegos.** Investigación, diseño, desarrollo con IA y publicidad Roblox. **Última reorganización:** 2026-11-21.
 
-## Inicio rápido
+## Para IAs: leer por intención, no todo
 
-**Para cualquier IA (Codex, Claude, Cursor, ChatGPT):** leer primero **[AGENTS.md](AGENTS.md)**. Ese archivo indica qué archivo/secciones abrir según la pregunta y cómo evitar búsquedas y gasto de tokens innecesarios.
+- **[AGENTS.md](AGENTS.md)** — *primera lectura recomendada* para Claude, Codex, Cursor y Copilot: mapa mínimo por tarea, límites de gasto, evidencia, seguridad y ahorro de tokens.
+- **[AI_CONTEXT.md](AI_CONTEXT.md)** — resumen ejecutivo de una página **solo cuando la pregunta combina áreas**. No es necesario para consultas puntuales.
+- **[CLAUDE.md](CLAUDE.md)** y **[.github/copilot-instructions.md](.github/copilot-instructions.md)** — entradas ligeras nativas para sus asistentes.
+- **[.cursor/rules/roblox-vault.mdc](.cursor/rules/roblox-vault.mdc)** — entrada de Cursor.
 
-| Pregunta | Documento canónico |
+## Índice de fuentes canónicas
+
+| Necesito... | Ir a... |
 |---|---|
-| ¿Qué juego crear? ¿Qué idea ya demostró demanda? | **[GameIdeasForRoblox.md](GameIdeasForRoblox.md)** |
-| ¿Qué es core fantasy? ¿Cómo elegir nombre/thumbnail? | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §1–2 |
-| ¿Cómo configurar Sponsored Ads? ¿Cuánto gastar? | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §3 |
-| ¿Cómo interpretar CTR, CPP, D1, algoritmo y campañas? | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §4–5 |
-| ¿Cómo auditar mi campaña con mis estadísticas? | **[Templates/CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md)** |
+| Encontrar/validar ideas, Flash, 3M visitas, ratings, Roblox gap | **[GameIdeasForRoblox.md](GameIdeasForRoblox.md)** |
+| Decidir core fantasy, título, miniatura y keyword demand | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §1–2 |
+| Configurar/interpretar Roblox Sponsored Ads, CTR, CPP, D1, Home | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §3–5 |
+| Analizar datos reales de una campaña | **[Templates/CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md)** |
+| Desarrollar con Roblox Studio, MCP, Claude/Codex, Git, seguridad, QA | **[Playbooks/AI-GameDevelopment.md](Playbooks/AI-GameDevelopment.md)** |
 
-## Principio del proyecto
+## Norma esencial
 
-**No crear ni promocionar una idea que todavía no tiene una fantasy entendible, un nombre con demanda, una thumbnail clara y un core loop divertido.** Las visitas que compres no compensan un juego que los usuarios abandonan.
+1. **No desarrollar a escala:** sin fantasía clara, título, miniatura, evidencia de demanda y loop divertido.
+2. **No escalar publicidad:** si faltan onboarding, retención D1/tiempo de sesión y datos fiables.
+3. **No inventar resultados:** diferenciar evidencias de un video, números del propio juego, fuentes oficiales e hipótesis.
+4. **No gastar créditos ni tocar campañas** sin autorización explícita.
 
-## Fuentes principales
+## Fuentes
 
-- [Tizzy RBLX: cómo descubrir ideas](https://www.youtube.com/watch?v=8q6kdFVL_fY) — metodología capturada en notas; el video no fue transcrito en ese archivo.
-- [Tizzy RBLX: Sponsored Ads Explained](https://www.youtube.com/watch?v=owMnhg3fn_M) — [subtítulos originales accesibles aquí](https://prepublish.ai/youtube-transcript/owMnhg3fn_M).
-- [Roblox Creator Hub: Ads Manager](https://create.roblox.com/docs/production/promotion/ads-manager) — autoridad sobre producto/cambios.
-- [Roblox Discovery](https://create.roblox.com/docs/discovery) — señales algorítmicas reales.
+- [Tizzy — Roblox Sponsored Ads Explained](https://www.youtube.com/watch?v=owMnhg3fn_M) · [transcripción](https://prepublish.ai/youtube-transcript/owMnhg3fn_M)
+- [Tizzy — Cómo encuentra ideas de Roblox](https://www.youtube.com/watch?v=8q6kdFVL_fY)
+- Documento del usuario: `reglas de creacion.md.txt`, transcripción «Cómo crear juegos de Roblox con IA y ganar dinero (guía REAL)», resumido en el playbook de desarrollo.
+- [Roblox Ads Manager oficial](https://create.roblox.com/docs/production/promotion/ads-manager) · [Roblox Discovery](https://create.roblox.com/docs/discovery)
 
-**Dato actual sensible a cambios (21/11/2026):** el video de mayo menciona un umbral de **500 Highly Engaged Players**, pero Roblox pasó a **250** en agosto y anunció comenzar el cambio a **100** desde el **19/11/2026**. Comprobar umbral vigente en el Creator Hub del juego antes de actuar. [Anuncio](https://devforum.roblox.com/t/highly-engaged-player-threshold-drops-to-250/4820164).
+**Dato sensible a fecha:** no usar 500 Highly Engaged Players como regla universal. Roblox anunció bajar primero a 250 y luego iniciar despliegue a 100 desde 19/11/2026. Confirmar requisito actual en Creator Hub. [Comunicado](https://devforum.roblox.com/t/highly-engaged-player-threshold-drops-to-250/4820164).
 
-## Organización
+## Convenciones de mantenimiento
 
-- **AGENTS.md:** política de lectura inteligente y ahorro de tokens.
-- **GameIdeasForRoblox.md:** investigación, evidencia, filtros y backlog de ideas.
-- **CampaingsAndPreGameCreation.md:** núcleo de fantasía + marketing + anuncios + diagnóstico.
-- **Templates/:** plantillas, no datos reales.
-- **Campaigns/:** se creará solo al tener reportes reales, por juego/fecha.
-- **Media:** las capturas existentes deben guardarse y vincularse verificando su ruta; no se inventan capturas de video.
+- `Templates/`: ejemplos, sin datos reales inventados.
+- `Playbooks/`: implementación por disciplina.
+- `Campaigns/`: crear un archivo por juego/campaña/fecha **solo** cuando haya métricas.
+- `_Media/Roblox/` (Obsidian local): capturas verificadas; no insertar embeds a archivos ausentes.
 
-**Norma:** Registrar siempre fuente y fecha, distinguir video/opinión, dato oficial e hipótesis, y no modificar campañas con gasto sin aprobación explícita.
+El **nombre histórico** `CampaingsAndPreGameCreation.md` se conserva para no romper enlaces.
