@@ -6,6 +6,8 @@
 **Main reference:** [Tizzy RBLX — I paid a top dev $300 to teach me how he finds Roblox game ideas](https://www.youtube.com/watch?v=8q6kdFVL_fY)  
 **Purpose:** Find **proven, easy-to-understand game fantasies that succeeded outside Roblox**, check whether Roblox has already served that demand, and prototype the best *distinctive* idea fast.
 
+**AI index:** [README.md](README.md) → [AGENTS.md](AGENTS.md). **Antes de anuncios:** revisar [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §1–4 para keyword/title/thumbnail/CTR y gates de retención; no duplicar información de campañas aquí.
+
 > **North star:** Don't invent demand. Find a fantasy or mechanic people already love, verify its audience, identify the underserved Roblox version, and make it simple, social, funny, and instantly readable.
 >
 > **Important:** The criteria and inspiration sources below are from our working notes on the Tizzy video; the scoring model, workflow, and adaptation ideas are our research framework. The linked video itself was not transcribed for this document.
