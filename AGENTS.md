@@ -1,63 +1,47 @@
-# AGENTS.md — Roblox Vault: instrucciones para todas las IAs
+# AGENTS.md — Roblox Vault (instrucciones mínimas para cualquier IA)
 
-## Objetivo
+> **Repositorio de CONOCIMIENTO** RBLX LAB; NO es el código de los juegos. Objetivo: decisiones basadas en fuentes, **mínimo de tokens y búsquedas**. Idioma de respuesta: el del usuario.
 
-Este repositorio es la **fuente de verdad sobre investigación y marketing de Roblox de RBLX LAB**, separada de los repositorios de código de cada juego. Se creó para **ahorrar créditos/tokens**: nunca hacer un escaneo entero ni repetir búsqueda web sin necesidad. Leer primero un índice mínimo y solo los capítulos del problema.
+## 0. Protocolo de lectura: progressive disclosure
 
-## Mapa de lectura (routing determinista)
+1. **Lee este índice, no todo el repositorio.** Para una consulta sencilla, responde sin abrir otros documentos si basta este contexto.
+2. Si la pregunta abarca varias áreas, leer **[AI_CONTEXT.md](AI_CONTEXT.md)** (resumen de una página). Si trata un tema puntual, **saltar ese resumen** e ir directo a la sección indicada abajo.
+3. Abrir **solo los encabezados/rangos pertinentes** del documento propietario; expandir únicamente cuando falta un dato. No cargar los 24 KB de ideas ni los 20 KB de Ads para una pregunta de una línea.
+4. Buscar web o Creator Hub **solo** si se necesitan cifras cambiantes, anuncios vigentes, regulación, o confirmar una laguna factual. Reutilizar URLs/fechas del vault; no repetir scraping del video.
+5. Una afirmación sin evidencia lleva `UNKNOWN`, no un número inventado. No dar acceso Studio/GitHub/Ads por hecho sin comprobarlo.
 
-| Intención del usuario | Leer EXACTAMENTE | No leer salvo que se necesite |
-|---|---|---|
-| Encontrar juego, validar demanda, Flash, rating, saturación | [GameIdeasForRoblox.md](GameIdeasForRoblox.md) §1, §3, §4, §7–8 | Guía de campañas completa |
-| ¿Qué es core fantasy? ¿Cómo elegir título/thumbnail? | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §1–2 | Backlog de Flash |
-| ¿Cuándo anunciar? ¿Cuánto gastar? ¿Alcance 16+? | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §3, §9 | Investigación de juegos originales |
-| Analizar campaña real, CTR, CPP, ROAS, D1, Home impressions | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §4–5 + [Templates/CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md) | Búsqueda general de ideas |
-| Construcción con IA, instrumentación | Notas RBLX LAB Analytics-First del vault persistente + [GameIdeasForRoblox.md](GameIdeasForRoblox.md) §1C, §3; si hace falta §5 de campañas | Ads hasta que el juego retenga |
-| ¿Qué investigación ya se hizo? | [GameIdeasForRoblox.md](GameIdeasForRoblox.md) §5, §8 y changelog | Consultar de cero fuentes externas |
+## 1. Rutas deterministas por intención
 
-**Inicio para cualquier IA:** leer este archivo, después solo las secciones pertinentes. No necesita cargar todo el repositorio en cada conversación.
+| Consulta | Documento propietario y secciones iniciales |
+|---|---|
+| Crear/validar idea, ranking, mercado Flash, competencia | [GameIdeasForRoblox.md](GameIdeasForRoblox.md) §1, §3–4, §7–8 |
+| Core fantasy, demanda de palabras, nombres, miniaturas | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §1–2 |
+| Lanzar Sponsored Ads, créditos, elegibilidad Kids and Select | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §3 |
+| Evaluar campaña, CTR, CPP, ROAS, D1, Home | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §4–5 + [CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md) |
+| Programar con IA/Studio/MCP, QA, seguridad y releases | [Playbooks/AI-GameDevelopment.md](Playbooks/AI-GameDevelopment.md) §1–6 |
+| Recordar decisiones o candidatos estudiados | [GameIdeasForRoblox.md](GameIdeasForRoblox.md) §5, §8, historial |
+| Visión general o problema entre varias áreas | [AI_CONTEXT.md](AI_CONTEXT.md), luego solo lo faltante |
 
-## Política de costo/tokens: presupuesto de búsqueda
+## 2. Gates (no omitir)
 
-1. **Cache first:** buscar la respuesta en los archivos mapeados. El usuario quiere que este vault tenga decisiones, experiencias, fuentes y fechas, no investigación repetida.
-2. **Reusar referencias exactas:** si el archivo ya tiene URL, métrica y fecha suficientemente recientes para la pregunta, usar esos valores con marca temporal.
-3. **Web solo cuando haya un hueco factual o cambio de actualidad** (por ejemplo elegibilidad, costos de publicidad, CCU/visitas, nuevas normas, estadísticas recientes). No consultar Google por definiciones archivadas.
-4. **Agrupar búsquedas por hipótesis**, no por variaciones triviales. Detenerse en evidencia suficiente para PASS/FAIL; si no se puede comprobar, registrar UNKNOWN.
-5. **No volver a descargar subtítulos** del video patrocinado: fuente estable [Prepublish](https://prepublish.ai/youtube-transcript/owMnhg3fn_M); su síntesis en [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md). Consultar subtítulos solo ante dudas de atribución o detalle no cubierto.
-6. **No inventar** datos de ads, visitas, niveles lectores, D1/D7, tendencias o fotos. Marcar desconocido y registrar el **dato mínimo faltante**.
-7. **No leer todos los archivos** por defecto, ni abrir todos los juegos de la lista. Responder con la evidencia de la nota y una investigación incremental focalizada.
-8. Para cada información de actualidad, almacenar fecha + URL + fecha de próxima verificación (si aplica); mantener el historial en lugar de reemplazar números sin rastro.
-9. Al cerrar una tarea, **actualizar solo la nota propietaria** y el índice si aparece un nuevo tema; evitar múltiples versiones de un mismo conocimiento.
-10. **Conservar fuente y nivel de confianza:** [VIDEO] opinión, [ROBLOX] oficial, [RBLX-LAB] criterio/hipótesis, [POR VERIFICAR] falta de evidencia.
+- **Antes de crear:** core fantasy + prueba de demanda + título + thumbnail + bucle divertido; si falla, `RESEARCH/NO-GO`.
+- **Antes de Ads:** experiencia jugable para niños y móvil, telemetría y retención verificadas, techo de gasto aprobado. Si la gente abandona/no vuelve, arreglar antes de aumentar publicidad.
+- **Antes de compras/código:** servidor autoritativo para premios y economía, remotos validados, receipts idempotentes, QA. Ningún script instalado sin inspección.
+- **Cada feature** tiene hipótesis, KPI/denominador, evento servidor, segmento, versión y prueba. No forzar funnels que no siguen secuencia real.
+- **No gastar, editar campañas, ni publicar** sin autorización explícita y permisos comprobados. Una nota en el vault no autoriza cambios en juegos ajenos.
 
-## Reglas que bloquean inversión
+## 3. Interpretación y actualidad
 
-- Antes de desarrollar: **core fantasy clara + título + thumbnail + comprobación de demanda + core loop prototipable**. Si falla, NO-GO hasta corregir.
-- Antes de escalar Ads: **primera acción comprensible, fun loop probado, telemetría confiable, FTUE, D1/tiempo de sesión y presupuesto máximo aprobado**. Si el juego no retiene, arreglar antes de comprar tráfico.
-- La recomendación Tizzy de 16 créditos/día por 3 días es **una prueba sugerida**, no gasto obligatorio o mínimo impuesto por Roblox.
-- Regla antigua 500 Highly Engaged Players **obsoleta como umbral actual**: bajó a 250 en agosto; Roblox anunció despliegue a 100 desde 19/11/2026. Revisar **Creator Hub → Publish Settings → Manage Audience** antes de actuar.
-- No usar una IA con permiso de cambiar anuncios o recarga automática sin autorización humana por campaña y presupuesto.
+- `CTR Ads = clicks / ad impressions`; **NO** es `PTR/QPTR Home`. `CPP = spent / attributed plays` cuando el panel permite esa comparación.
+- D1/D7 y duración de sesión: consultar cohortes del panel, nunca calcular de contadores no equivalentes.
+- Tizzy mostró **CTR 1,54 % → 3,27 %** para un caso; **16 créditos/día × 3 días** es su ejemplo, **no benchmark ni mínimo oficial**.
+- Requisito antiguo **500 Highly Engaged Players** quedó desactualizado: Roblox anunció 250 (agosto) y despliegue de 100 desde 19/11/2026. **Comprobar requisito en Creator Hub de cada juego** antes de actuar.
+- **Fuentes en orden:** datos propios recientes → Roblox oficial fechado → vault con fuentes → video de creador → hipótesis. Marcar `[VIDEO]`, `[ROBLOX]`, `[RBLX-LAB]` y fecha donde importe.
 
-## RBLX LAB — normas coexistentes
+## 4. Respuestas cortas y actualización del vault
 
-- Analytics-first: toda feature tiene hipótesis, KPI, denominador, evento validado en servidor, QA y fecha/versión.
-- El público objetivo histórico de muchos proyectos es de aprox. **9–15 años**, pero comprobar el público de **cada juego**. Lenguaje legible, controls mobile-first, seguridad, monetización sin explotación de menores.
-- Ideas pasadas pueden quedar superadas: revisar fecha y decisión vigente del proyecto antes de imponer un shooter, un tycoon o un loop previo.
-- Repo de conocimiento **no es repo de juego**. No editar scripts de Roblox Studio solo por leer notas.
-- Fuente de juegos externos para investigación: [GameIdeasForRoblox.md](GameIdeasForRoblox.md). No copiar personajes, niveles ni marcas protegidas.
-
-## Cómo producir una respuesta breve y útil
-
-- Para ideas: **Veredicto** (GO/RESEARCH/NO-GO) + evidencia externa + prueba Roblox + fantasy/título/thumbnail + riesgo #1 + siguiente test.
-- Para campaña: **Gasto/Impresiones/Clicks/CTR/Plays/CPP/D1** + pérdida del funnel + **un cambio prioritario** + criterio de parada. Si no están los datos, no simularlos.
-- Para dudas de factibilidad: **actualización oficial con fecha**, qué se sabe, qué falta comprobar en el panel y acción mínima.
-- No repetir una explicación de 3.000 palabras si el usuario pidió una decisión puntual; dar link al archivo de detalle.
-
-## Mantenimiento
-
-- Archivos raíz: mapas y playbooks canónicos.
-- Templates/: formatos reutilizables, sin métricas ficticias.
-- Futuras campañas reales: Campaigns/<juego>/<YYYY-MM-DD>-<campaña>.md (crear solo cuando existan datos).
-- Futuras ideas: conservar backlog en GameIdeasForRoblox.md o separar en Ideas/ solo cuando haya múltiples expedientes completos, actualizando links.
-- Evidencia visual: en Obsidian local usar _Media/Roblox/; no inventar enlaces a PNG no sincronizados.
-- Actualizar README si se agrega un tema o se mueve un archivo. Nunca borrar/mover notas antiguas sin actualizar backlinks.
+- **Ideas:** `GO/RESEARCH/NO-GO` + 2–3 evidencias + fantasía/título/thumbnail + riesgo y próximo test.
+- **Ads:** período, moneda, gasto, impresiones, clicks, CTR, plays, CPP, D1, sesión, principal cuello de botella, **un cambio** y criterio de pausa. Si no hay métricas, `INCONCLUSO` + campos mínimos faltantes.
+- **Código:** archivos tocados, cambio mínimo, KPI/evento, QA verificado y `COMPLETADO/PARCIAL/BLOQUEADO`.
+- Actualizar solo **nota propietaria** con URL, fecha y evidencia, no crear múltiples resúmenes iguales. Guardar capturas solo si el binario existe; nada de links rotos. Registrar campañas reales en `Campaigns/<juego>/<fecha>-<campaña>.md` solo cuando haya datos.
+- No borrar/mover archivos existentes ni duplicar investigaciones sin comprobar enlaces.
