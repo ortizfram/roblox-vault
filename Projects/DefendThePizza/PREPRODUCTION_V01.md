@@ -123,3 +123,10 @@ Versión `DTP_V01`. Los eventos se proponen, no están implementados.
 - La historia original del remoto (README creado en GitHub) fue **preservada**, sin forzar branch. El ZIP local anterior tiene historial Git independiente y **no se debe usar para hacer `git push` directamente**. Para desarrollar en Windows, usar `git clone https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME.git`.
 - Se verificó `main` mediante lectura posterior al commit, árbol de 19 archivos, README y política de sincronización. La comprobación estática del starter pasó localmente antes de subir; **Roblox Studio no se probó**.
 - **Proceso futuro:** cada sesión autorizada empieza revisando la rama/remote y termina con commit y push verificado; no existe sincronización automática desatendida. `roblox-vault` contiene metodología e investigación, el repositorio del juego contiene código/progreso. GitHub no sincroniza Roblox Studio LIVE sin verificar Rojo/MCP y Place.
+
+## 10. Monetización — plan de producto, NO activada (2026-11-21)
+
+- **Documento fuente en el repo de código:** [MONETIZATION_PLAN_V1.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/MONETIZATION_PLAN_V1.md); commit verificado `4dca2bedd60a8fa0694d7b626a1083dd42806bba`.
+- Propuesta centrada en personalización cosmética sin ventajas: Crazy Chef Pack (49 R$), Golden Spatula Pack (79 R$), Pizza Party Celebration consumible posterior a victoria (19 R$), Master Chef Supporter (149 R$). **Precios tentativos**, mostrar precios regionales reales en UI; no se crearon IDs ni productos.
+- **Cuándo:** G0 planificar; G1/G2 sin venta; G3 tienda demostrativa sin compra; G4a dos pases tras diversión y métricas verificadas y autorización explícita; G4b celebración tras ganar con ProcessReceipt idempotente; G5 Supporter si hay retención real y demanda. No vender reparaciones/daño/poder y no colocar prompts en derrota.
+- Cada fase tiene métricas de apertura, intención, compras confirmadas, datos de retención D1/D7 y QA de entrega. Monetización requiere autorización explícita y no reemplaza gameplay divertido.
