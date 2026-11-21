@@ -239,6 +239,19 @@ Start with the emotional promise, not the old game's art:
 | IDEA-002 | Chain-Reaction Crowd Race | Original: Infectonator 2, 11M / 96 | Unknown | Incomplete | RESEARCH | Search exact mechanic and playtest kid-safe cartoon version |
 | IDEA-003 | Goofy Blacksmith With Friends | Original: Jacksmith, 10M / 95 | Forge games exist | Incomplete | WATCHLIST | Find stronger proof/alternative angle |
 | IDEA-004 | Throw a Friend Across the Map | Original family: Flight / Toss the Turtle; ratings <96 | Launch sims likely; exact gap unknown | Incomplete | WATCHLIST | Roblox competition audit |
+| IDEA-005 | **Defend the Pizza!** | Creator Exchange keyword research confirmed by user on 2026-11-21; source counts/URLs not yet recorded | Direct competition/genre gap not documented yet | Incomplete | **SELECTED — PREPRODUCTION** | Lock core fantasy, produce thumbnail candidates and test 30-second co-op combat loop |
+
+### IDEA-005 — Defend the Pizza! (decisión del propietario 2026-11-21)
+
+- **Nombre elegido:** `Defend the Pizza!` (no es un lanzamiento ni una reserva exclusiva del título).
+- **Validación reportada por el usuario:** se investigó `Defend` en Creator Exchange y el nivel de comprensión del término es aproximadamente Grade 3–4. **No** se adjuntaron números, capturas, URL de los juegos analizados ni fuente de grade-level a esta actualización; por lo tanto se reconoce la decisión del usuario, pero la evidencia cuantitativa queda `UNKNOWN` hasta documentarse. No inventar un PASS de 3M/4.8/competencia.
+- **Core fantasy propuesta:** proteger una pizza gigante de monstruos hambrientos con amigos.
+- **Diferenciación propuesta:** defensa física activa con espátulas/empujones, enemigos cómicos y mordidas que alteran visiblemente la pizza; no tower defense pasivo.
+- **Core loop propuesto:** repeler monstruos → salvar porciones → conseguir monedas → mejorar herramienta/defensa → siguiente oleada; rondas cortas y posibilidad de jugar solo.
+- **Thumbnail por validar:** pizza enorme en centro, monstruo mordiéndola, jugador desplazando al atacante con espátula; 1 protagonista/1 acción/1 consecuencia legibles en miniatura.
+- **MVP sugerido, no autorizado para implementación todavía:** una cocina, una pizza con daño visible, 3 spawns, espátula, 3 arquetipos simples, 5 oleadas, 1 upgrade, servidor autoritativo + first-hit/first-wave/replay analytics y móvil desde la primera iteración.
+- **Pendientes del gate:** confirmar competidores específicos en Roblox, preservar evidencia de Creator Exchange, seleccionar thumbnail, jugar prototipo gris divertido antes de construir a escala o invertir en Ads.
+- **No iniciar:** gasto en ads, monetización ni publicación sin aprobación explícita.
 
 ---
 
@@ -254,6 +267,7 @@ Whenever new information arrives:
 
 ### Changelog
 
+- **2026-11-21 — decisión IDEA-005:** El propietario eligió **Defend the Pizza!** e informó haber completado validación de la palabra `Defend` en Creator Exchange y legibilidad 3.º–4.º grado; se registra como decisión de preproducción sin inventar resultados numéricos.
 - **2026-11-21 — v1.0:** Captured idea filters from user notes on Tizzy RBLX's game-idea video; added research sources, Roblox validation process, strict-vs-watchlist rules, weighted score, adaptation formulas, and initial Armor Games research leads. Verified the source-page existence of competing Roblox concepts for training, office tycoons, forge games, and obstacle races. No idea is approved for production yet.
 
 ---
