@@ -1,9 +1,5 @@
-# CLAUDE.md — instrucciones mínimas
+# CLAUDE.md
 
-Este repositorio contiene conocimiento Roblox, **no código de juegos**. Antes de explorar archivos o hacer búsquedas web, lee [AGENTS.md](AGENTS.md), que contiene el índice de lectura por tarea y la política de ahorro de tokens.
+Repositorio de **conocimiento Roblox**, no scripts de juegos. Lee [AGENTS.md](AGENTS.md) para encontrar **una sola** fuente y sección según la tarea. Para un tema transversal, usa [AI_CONTEXT.md](AI_CONTEXT.md) antes de ampliar.
 
-- Para ideas: [GameIdeasForRoblox.md](GameIdeasForRoblox.md).
-- Para core fantasy, títulos, publicidad y métricas: [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md).
-- Para auditar campañas: [Templates/CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md).
-
-No cargues el vault completo. No inventes estadísticas. No hagas gastos ni cambios en Ads Manager sin aprobación humana explícita.
+No escanees todo el repo, no repitas búsquedas ya documentadas, no inventes estadísticas y no gastes créditos ni modifiques campañas sin autorización explícita.
