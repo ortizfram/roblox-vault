@@ -114,3 +114,12 @@ Versión `DTP_V01`. Los eventos se proponen, no están implementados.
 - Arte final, precio de productos, ingresos, monetización y publicidad están **fuera de alcance** de V0.1.
 
 **Próximo entregable real:** storyboard thumbnail A con prueba visual 16:9 + graybox mínimo jugable. Esta nota no equivale a una thumbnail PNG ni a un juego implementado.
+
+## 9. Estado de repositorio de código y sincronización (2026-11-21)
+
+- Repositorio de juego previsto: **privado** `ortizfram/DEFEND_THE_PIZZA_GAME` (separado de este vault). **No existe como remoto verificable** en la última consulta de GitHub de esta sesión; no afirmar que está subido.
+- Se preparó paquete Git local `DEFEND_THE_PIZZA_GAME_REPO.zip` con README, AGENTS, CLAUDE, scripts Luau base, documentos, pruebas y estructura Rojo.
+- Se añadió y commiteó una **política de sincronización por sesión** en el juego: `docs/SYNC_POLICY.md` y `tools/sync_repo.ps1`. Cada IA deberá comprobar remoto/estado al comenzar, y al terminar actualizar los archivos afectados, validar, hacer commit y push con comprobación del HEAD remoto si existe y hay permisos. No realizar force-push ni pisar cambios de otras IAs.
+- **Doble repositorio**: los cambios de diseño de un solo juego van al repo del juego; las reglas generales y las validaciones de demanda se documentan aquí. En caso de tocar ambas fuentes, enlazarlas y verificar ambos commits por separado.
+- La sincronización GitHub ↔ Roblox Studio **no es automática**: Rojo/MCP y la identidad del Place necesitan verificarse antes de hacer cambios. Tampoco existe sincronización desatendida entre conversaciones; el procedimiento se aplica al trabajar en el proyecto.
+- Acción pendiente del propietario para habilitar push remoto: crear repo privado vacío en https://github.com/new con nombre `DEFEND_THE_PIZZA_GAME` bajo `ortizfram`, luego configurar `origin` y subir la rama `main` desde el paquete descomprimido. No borrar el contenido local ni inicializar archivos de GitHub innecesarios.
