@@ -190,3 +190,18 @@ Se desarrolló un **Game Design de experiencia completa** para Defend the Pizza,
 - **Documento ejecutable:** [NEXT_P0_PLAYTEST_GATE.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/NEXT_P0_PLAYTEST_GATE.md). Rama `main` verificada del repo juego, commit `68c7c829791cd4ffab324fc56afe9fed2f529dde`.
 - **Después de superar ese gate**, el siguiente feature será Slice Thief: una criatura roba una porción y huye; el jugador la golpea para recuperarla. Luego se considerará daño al chef + revive gratis. No activar monetización en esta etapa.
 - Los criterios de éxito son hipótesis cualitativas, no datos de retención medidos. Ninguna prueba humana ni móvil físico ocurrió durante esta actualización de documentación.
+
+## 17. P0 V0.6 — PvZ original, tres mordidas/porción y ragdoll Munchie (22/11/2026)
+
+**Referencia contrastada (juego de PopCap, como inspiración mecánica, no assets):**
+- El girasol común del *Plants vs. Zombies* original tiene ~**300 HP**; el zombie común hace ~**100 daño por segundo comiendo**, de modo que tarda alrededor de **3 segundos** en comérselo solo. **No confundir** esa tasa temporal con una cantidad fija canónica de **3 mordiscos animados**.
+- Consultas: [Sunflower](https://plantsvszombies.wiki.gg/wiki/Sunflower_(PvZ)), [Damage](https://plantsvszombies.wiki.gg/wiki/Damage), [I, Zombie Endless / Strategies](https://plantsvszombies.wiki.gg/wiki/I%2C_Zombie_Endless/Strategies).
+
+**Traducción propia para Defend the Pizza!**: cada porción de pizza ahora resiste **3 mordidas compartidas por todos los zombies presentes**. Un Munchie intenta morder cada ~1 s, dañando al contacto visual a los ~0,55 s del clip; golpe preventivo cancela esa mordida. Mordidas 1 y 2 cambian el color/transparencia de la porción, 3 la elimina. HUD sencillo BITES/BITE 1/3 → 2/3, más el cambio visual.
+
+**Combate**: Munchie continúa con 2 HP; 1.er golpe empuja progresivamente ~5 studs con hit reaction; 2.º golpe desactiva los Motor6D no-root de Munchie A y crea BallSocketConstraints para **ragdoll físico**, con lanzamiento server-side y componente vertical. Espátula con windup 85° / snap -105° / recuperación elástica. Si solo existe un placeholder sin rig, vuelo visual por Tween, no ragdoll. Estos son **valores provisorios** (la distancia efectiva de vuelo y FPS deben medirse en Studio).
+- **Código + especificación operativa:** [COMBAT_TUNING_PVZ_V06.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/COMBAT_TUNING_PVZ_V06.md).
+- Actualizados Config, Munchie (función bite), Bootstrap server, MunchieRagdoll, client HUD/pose y tests `tests/munchie.luau`; docs GAME_DESIGN, ROADMAP, QA, DECISIONS, CHANGELOG y README.
+- Rama `main` del repo juego y commit de código verificado **`d6b1c730e84cf4984e8005e6a555cd67fc8959cc`**.
+- **No equivale a tener cambios sincronizados dentro del Place:** requiere Rojo/Studio, pruebas 1–2 clientes, móvil físico, evaluación de clipping/physics y playtest humano. Verificar el resultado de CI por separado; ningún test Studio fue ejecutado por esta actualización.
+- Próxima prioridad sigue siendo el playtest P0, no Slice Thief, UI extensa ni monetización.
