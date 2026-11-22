@@ -203,5 +203,6 @@ Se desarrolló un **Game Design de experiencia completa** para Defend the Pizza,
 - **Código + especificación operativa:** [COMBAT_TUNING_PVZ_V06.md](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/blob/main/docs/COMBAT_TUNING_PVZ_V06.md).
 - Actualizados Config, Munchie (función bite), Bootstrap server, MunchieRagdoll, client HUD/pose y tests `tests/munchie.luau`; docs GAME_DESIGN, ROADMAP, QA, DECISIONS, CHANGELOG y README.
 - Rama `main` del repo juego y commit de código verificado **`d6b1c730e84cf4984e8005e6a555cd67fc8959cc`**.
-- **No equivale a tener cambios sincronizados dentro del Place:** requiere Rojo/Studio, pruebas 1–2 clientes, móvil físico, evaluación de clipping/physics y playtest humano. Verificar el resultado de CI por separado; ningún test Studio fue ejecutado por esta actualización.
+- **CI técnica comprobada:** [GitHub Actions #45040447491](https://github.com/ortizfram/DEFEND_THE_PIZZA_GAME/actions/runs/45040447491) terminó **success** sobre el commit `d6b1c73`: compilación Luau y pruebas de reglas de `tests/munchie.luau` satisfactorias. Docs y roadmap del juego actualizados después en `fd5c200`.
+- **No equivale a tener cambios sincronizados dentro del Place:** requiere Rojo/Studio, pruebas 1–2 clientes, móvil físico, evaluación de clipping/physics y playtest humano. Ningún test Studio fue ejecutado por esta actualización.
 - Próxima prioridad sigue siendo el playtest P0, no Slice Thief, UI extensa ni monetización.
