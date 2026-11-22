@@ -18,6 +18,7 @@
 | Core fantasy, demanda de palabras, nombres, miniaturas | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §1–2 |
 | Lanzar Sponsored Ads, créditos, elegibilidad Kids and Select | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §3 |
 | Evaluar campaña, CTR, CPP, ROAS, D1, Home | [CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md) §4–5 + [CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md) |
+| Producción visual, UI, UGC, Blender/Blockbench, assets y arte con GPT/Claude | [Playbooks/Roblox-Visual-Production-UGC-UI-3D-AI.md](Playbooks/Roblox-Visual-Production-UGC-UI-3D-AI.md) §0–6 |
 | Programar con IA/Studio/MCP, QA, seguridad y releases | [Playbooks/AI-GameDevelopment.md](Playbooks/AI-GameDevelopment.md) §1–6 |
 | Recordar decisiones o candidatos estudiados | [GameIdeasForRoblox.md](GameIdeasForRoblox.md) §5, §8, historial |
 | Visión general o problema entre varias áreas | [AI_CONTEXT.md](AI_CONTEXT.md), luego solo lo faltante |

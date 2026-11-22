@@ -17,6 +17,7 @@
 | Decidir core fantasy, título, miniatura y keyword demand | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §1–2 |
 | Configurar/interpretar Roblox Sponsored Ads, CTR, CPP, D1, Home | **[CampaingsAndPreGameCreation.md](CampaingsAndPreGameCreation.md)** §3–5 |
 | Analizar datos reales de una campaña | **[Templates/CampaignReviewTemplate.md](Templates/CampaignReviewTemplate.md)** |
+| Crear UI, UGC, 3D y accesorios profesionales gratis con GPT/Claude y QA | **[Producción visual, UGC, UI y 3D con IA](Playbooks/Roblox-Visual-Production-UGC-UI-3D-AI.md)** |
 | Desarrollar con Roblox Studio, MCP, Claude/Codex, Git, seguridad, QA | **[Playbooks/AI-GameDevelopment.md](Playbooks/AI-GameDevelopment.md)** |
 
 ## Norma esencial

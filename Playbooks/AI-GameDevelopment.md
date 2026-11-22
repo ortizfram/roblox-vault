@@ -26,6 +26,8 @@ METRICS: [D1, tiempo de sesión, FTUE, replay]
 SHIP GATE: [condición observable antes de gastar dinero]
 ```
 
+**Arte/UGC/UI/3D con IA:** la ruta canónica de producción visual es [Roblox-Visual-Production-UGC-UI-3D-AI.md](Roblox-Visual-Production-UGC-UI-3D-AI.md), con flujo free-first, prompts GPT/Claude, export Blender y QA de licencias/performance. No implementar menús/meshes hasta pasar graybox.
+
 ## 2. Herramientas y límites [VIDEO 05:31–06:43]
 
 - **Roblox Studio + Assistant:** empezar con tareas pequeñas; inspeccionar cada script. Capacidades y límites dependen de disponibilidad actual.
