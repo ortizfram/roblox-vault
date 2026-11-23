@@ -1,3 +1,5 @@
+> **SUPERPOWERS + STOMPIES, 23/11/2026:** metodología permanente en [Playbooks/Superpowers-Methodology-Roblox-AI.md](Playbooks/Superpowers-Methodology-Roblox-AI.md), basada en [obra/superpowers](https://github.com/obra/superpowers) (v7.0.2 consultada), para todos los próximos prompts Roblox. Plan de STOMPIES D10 Arena + D11 Titan, biomas, Near Miss y economía en [Projects/Stompies/D10-D11-Superpowers-Arena-Giant-Economy-2026-11-23.md](Projects/Stompies/D10-D11-Superpowers-Arena-Giant-Economy-2026-11-23.md). El documento integra el método; instalar el plugin real en Claude Code se hace por separado.
+
 # Roblox Vault — RBLX LAB
 
 **Repositorio de conocimiento, no código de juegos.** Investigación, diseño, desarrollo con IA y publicidad Roblox. **Última reorganización:** 2026-11-21.
