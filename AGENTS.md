@@ -1,3 +1,5 @@
+> **NUEVO CATÁLOGO UNIVERSAL UI / VOXEL / TIENDAS / SFX / CLAUDE (23/11/2026):** ante cualquier pedido Roblox de interfaces, botones, tienda, Robux, passes, efectos, 3D, criaturas o mapas, consultar [Playbooks/Roblox-UI-Voxel-Toolchain-Claude-Code-2026-11-23.md](Playbooks/Roblox-UI-Voxel-Toolchain-Claude-Code-2026-11-23.md). Herramientas registradas, NO instaladas automáticamente; Superpowers obligatorio como método, más directiva vigente y ahorro de créditos.
+
 > **MÉTODO PERMANENTE DE DESARROLLO CON IA — SUPERPOWERS (23/11/2026):** Para todos los próximos prompts de Roblox, usar [Playbooks/Superpowers-Methodology-Roblox-AI.md](Playbooks/Superpowers-Methodology-Roblox-AI.md), basado en [obra/superpowers](https://github.com/obra/superpowers). Verificar instalación del plugin en Claude Code; skills aplicables, plan y pruebas RED→GREEN, QA/evidencia, review y ahorro de créditos. **Es una metodología, no autoridad para editar Studio, comprar o publicar.**
 
 # AGENTS.md — Roblox Vault (instrucciones mínimas para cualquier IA)
