@@ -7,6 +7,8 @@ status: active_guidance
 tags: [roblox, ia, claude-code, superpowers, testing, credits]
 ---
 
+> **Uso activo STOMPIES — 23/11/2026:** el ejemplo actual de aplicación es [D10-D Arena + D11 personalidad Titan, 5 biomas, STOMPAS + cosméticos](../Projects/Stompies/D10-D11-Superpowers-Arena-Giant-Economy-2026-11-23.md). Mantener esta metodología en **todos** los prompts siguientes; no confundir sincronización documental con instalación local del plugin de obra/superpowers.
+
 # Superpowers — metodología para todos los próximos prompts de Roblox
 
 **Preferencia vigente del dueño (23/11/2026):** incorporar [obra/superpowers](https://github.com/obra/superpowers) al flujo de prompts y trabajos de Roblox. Este Vault conserva un **puente documental**; el plugin real se instala en el Claude Code del usuario, no por escribir este archivo. No afirmar que está instalado, que los skills se ejecutaron o que existe sincronización automática del repositorio upstream.
