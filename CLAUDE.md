@@ -1,3 +1,5 @@
+> **UI/VOXEL/SHOPS GLOBAL:** ver [Playbooks/Roblox-UI-Voxel-Toolchain-Claude-Code-2026-11-23.md](Playbooks/Roblox-UI-Voxel-Toolchain-Claude-Code-2026-11-23.md) cuando corresponda; repos existentes verificados, paquetes por auditar, no instalar todo ciegamente. Superpowers + ahorro créditos para futuros proyectos.
+
 > **Superpowers para todos los prompts Roblox:** leer [Playbooks/Superpowers-Methodology-Roblox-AI.md](Playbooks/Superpowers-Methodology-Roblox-AI.md) y verificar plugin oficial instalado. Mantener ahorro de créditos, TDD y evidencia, no alterar reglas de publicación de los proyectos.
 
 # CLAUDE.md
