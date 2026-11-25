@@ -1,3 +1,5 @@
+> **CINEMATIC FTUE / ANIMATION (24/11/2026):** consultar [Roblox Cutscenes & Animation](Playbooks/Roblox-Cutscenes-Animation-Cinematic-FTUE.md) para intro, animación, cámara, diálogos, recompensas y photo finish. RXZ candidato, un runtime auditado, QA y restore obligatorios.
+
 > **RADAR DE TENDENCIAS (24/11/2026):** antes de elegir concepto, nombre o thumbnail, consultar [Trend Radar YouTube/TikTok/Roblox](Playbooks/Trend-Radar-YouTube-TikTok-Roblox.md): ventana 7/30 días, evidencia por video y cluster, adaptación original, validación Roblox y gates. No inferir edad por views ni tratar tendencias históricas como nuevas.
 
 > **NUEVO CATÁLOGO UNIVERSAL UI / VOXEL / TIENDAS / SFX / CLAUDE (23/11/2026):** ante cualquier pedido Roblox de interfaces, botones, tienda, Robux, passes, efectos, 3D, criaturas o mapas, consultar [Playbooks/Roblox-UI-Voxel-Toolchain-Claude-Code-2026-11-23.md](Playbooks/Roblox-UI-Voxel-Toolchain-Claude-Code-2026-11-23.md). Herramientas registradas, NO instaladas automáticamente; Superpowers obligatorio como método, más directiva vigente y ahorro de créditos.
