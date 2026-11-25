@@ -1,4 +1,4 @@
--- TEMPLATE (roblox-vault, 2026-11-25). Copied from STOMPIES_GAME (SAVE RARE ANIMALS!), MIT-compatible original code of the
+-- TEMPLATE (roblox-vault, 2026-11-25). Copied from STOMPIES_GAME (SAVE RARE ANIMALS!): original code of the
 -- owner's project. See Playbooks/Roblox-World-Building-Macro-Landmarks-2026-11-25.md. Adapt Palettes, Budget and
 -- landmarkFor() to the new game; keep the rules: own geometry, hard part budget, no collisions, seed = same landmark.
 -- SAVE RARE ANIMALS! · WorldKit (owner 2026-11-25). Original micro-voxel LANDMARKS made of Parts.
