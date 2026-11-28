@@ -187,3 +187,23 @@ En el vault local Obsidian, guardar imágenes binarias en **_Media/Roblox/** y u
 - **2026-11-21:** esta síntesis incorpora la transcripción, cotejo oficial, árbol diagnóstico y normas anti-gasto.
 
 **Referencias:** [Video](https://www.youtube.com/watch?v=owMnhg3fn_M) · [Subtítulos](https://prepublish.ai/youtube-transcript/owMnhg3fn_M) · [Ads Manager oficial](https://create.roblox.com/docs/production/promotion/ads-manager) · [Discovery](https://create.roblox.com/docs/discovery) · [Kids and Select](https://devforum.roblox.com/t/highly-engaged-player-threshold-drops-to-250/4820164) · [Creator Exchange](https://creatorexchange.io/) · [FAQ sobre ingresos estimados](https://creatorexchange.io/faq)
+
+
+## 10. Regla empírica de creatividad: vender la recompensa, no el obstáculo (28/11/2026)
+
+[RBLX-LAB / experimento propio, síntesis sin datos comerciales detallados] En un test de 23 creatividades de un juego de rescate y colección, una imagen con una criatura gigante amistosa, avatar interactuando y amenaza secundaria obtuvo la mayor señal de plays y el menor CPP. Otras imágenes de persecución atrajeron clics sin plays; las secuencias bebé→adulto con flechas no destacaron. Muestra pequeña y reparto desigual: hipótesis transferible, no ley universal.
+
+### Diseño de thumbnails y validación pre-game
+- Identificar la recompensa emocional final (posesión, poder, colección, logro, vínculo) y representarla como un instante legible; el obstáculo solo aporta contexto cuando no es la fantasía central.
+- Un sujeto dominante, una interacción inequívoca, siluetas claras, contraste figura/fondo y lectura en pantalla pequeña. Evitar explicar progresión con flechas o múltiples escenas cuando un resultado visible comunica mejor.
+- En juegos de mascotas, probar criatura rara de gran tamaño + jugador que la acaricia/abraza + colección/fence de fondo; probar otras especies y paletas manteniendo la composición. En otros géneros, traducir la regla a su recompensa real, no copiar mascotas.
+- Promesa honesta y congruente en anuncio, primera miniatura de la página, título, trailer real y primera sesión; si el creativo promete posesión, el onboarding debe permitir obtener y ver la recompensa pronto.
+
+### Protocolo Ads
+- Objetivo Plays: ordenar por CPP y clic→play, no por CTR aislado. Un CTR alto con cero plays es curiosidad sin conversión, no éxito.
+- Comparar con denominadores, gasto, atribución y maduración equivalentes. Registrar sesión por play y D1/D7 por cohortes; una cuota alta de playtime total no demuestra retención. Si clic→play es bajo, auditar página, carga/join, móvil y coherencia de promesa antes de atribuir causalidad.
+- Mantener una referencia ganadora provisional y probar 3–4 variantes con un cambio principal por vez. ~10 plays por variante como mínimo práctico inicial de revisión, no prueba de significancia ni benchmark universal; 0–2 plays suelen ser inconclusos.
+- Revisar que haya video de gameplay y que abra con la fantasía validada; verificar disponibilidad y requisitos actuales en el panel. No escalar sin retención/sesión verificadas y autorización del dueño.
+- Conservar evidencia original y discrepancias entre export y resumen; jamás ajustar cifras sin fuente. Datos comerciales y assets específicos permanecen en el vault privado del juego.
+
+**Regla breve:** la thumbnail debe mostrar lo que el jugador quiere conseguir, no necesariamente lo que debe superar para conseguirlo. Validar con plays y calidad posterior.
